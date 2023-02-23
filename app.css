@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head-1{
+    margin: 2rem;
+}
+#input-text{
+    display: block;
+    height: 25vh;
+    width: 40vw;
+    margin: 2rem;
+    padding: 1rem;
+}
+#btn-translate{
+   margin-left: 2rem;
+   padding:10px;
+}
