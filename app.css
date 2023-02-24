@@ -7,7 +7,7 @@
 }
 #input-text{
     display: block;
-    height: 25vh;
+    height: 20vh;
     width: 40vw;
     margin: 2rem;
     padding: 1rem;
@@ -15,4 +15,11 @@
 #btn-translate{
    margin-left: 2rem;
    padding:10px;
+}
+#output-text{
+    border: 1px solid black;
+    height: 20vh;
+    width: 40vw;
+    margin: 2rem;
+    padding: 1rem;
 }
