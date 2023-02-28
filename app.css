@@ -2,8 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
-#head-1{
-    margin: 2rem;
+body{
+    background-color: cornsilk;
+}
+header{
+    background-color: rgb(223, 123, 123);
+    padding: 1.5rem;
 }
 #input-text{
     display: block;
@@ -11,15 +15,30 @@
     width: 40vw;
     margin: 2rem;
     padding: 1rem;
+    border: 3px solid rgb(176, 167, 167);
 }
 #btn-translate{
    margin-left: 2rem;
    padding:10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#btn-translate:hover{
+    background-color: rgb(211, 220, 217);
 }
 #output-text{
-    border: 1px solid black;
+    border: 3px solid rgb(176, 167, 167);
     height: 20vh;
     width: 40vw;
     margin: 2rem;
     padding: 1rem;
+}
+#output-head{
+    margin: 2rem;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(223, 123, 123);
+    padding: 2rem;
+    text-align: center; 
 }
