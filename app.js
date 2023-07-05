@@ -18,10 +18,10 @@ function clickHandler(){
 
     fetch(getTranslationURL(txtInput))
     .then(response=>response.json())
-    .then(json=>console.log(json.contents.translated))
-    // .then(json=>{
-    //     outputText.innerText=json.contents.translated   
-    // })
+    // .then(json=>console.log(json.contents.translated))
+    .then(json=>{
+        outputText.innerText=json.contents.translated   
+    })
     .catch(errorHandler)
 }                 
 btnTranslate.addEventListener("click",clickHandler);
